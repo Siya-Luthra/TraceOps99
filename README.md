@@ -98,3 +98,11 @@ curl -X POST http://localhost:8000/api/ingest \
 ## UI Access
 - Username: `admin`
 - Password: `admin`
+## Links
+
+Deployment: The solution has been successfully deployed and is accessible through the prototype link below.
+
+
+Prototype: [https://chakravyuh-p94y.onrender.com](https://chakravyuh-p94y.onrender.com/)
+
+Solution Video: [https://youtu.be/8MdlwngORu0](https://youtu.be/8MdlwngORu0)
