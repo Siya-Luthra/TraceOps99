@@ -57,7 +57,7 @@ Set-Location ..
 # 7. Start Frontend
 Write-Host "[*] Starting Frontend Server on port 8080 with Live Reload..."
 Set-Location frontend
-$frontendProcess = Start-Process -FilePath "npx.cmd" -ArgumentList "-y live-server --port=8080 --no-browser" -NoNewWindow -PassThru
+$frontendProcess = Start-Process -FilePath "..\venv\Scripts\python.exe" -ArgumentList "-m http.server 8080" -NoNewWindow -PassThru
 Set-Location ..
 
 Write-Host "================================================="
